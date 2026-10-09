@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: bada1951a/astro-paper
   branch: main
 
 media_folder: "public/images/posts"
