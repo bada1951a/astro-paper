@@ -9,17 +9,5 @@
 </head>
 <body>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  <script>
-    // 클라우드플레어 Pages 환경에서 Netlify 인증 팝업 우회 설정
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.reload();
-          });
-        }
-      });
-    }
-  </script>
 </body>
 </html>
