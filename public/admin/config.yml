@@ -2,7 +2,7 @@ backend:
   name: github
   repo: bada1951a/astro-paper
   branch: main
-  site_url: https://post.storydailyview.com
+  base_url: https://decap-cms-oauth.netlify.app
 
 media_folder: "public/assets/images"
 public_folder: "/assets/images"
