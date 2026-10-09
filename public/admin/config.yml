@@ -2,6 +2,8 @@ backend:
   name: github
   repo: bada1951a/astro-paper
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "public/images/posts"
 public_folder: "/images/posts"
