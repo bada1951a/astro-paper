@@ -3,6 +3,8 @@ backend:
   repo: bada1951a/astro-paper
   branch: main
 
+local_backend: true
+
 media_folder: "public/assets/images"
 public_folder: "/assets/images"
 
